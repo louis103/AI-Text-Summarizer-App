@@ -16,7 +16,5 @@ Servers play a vital role in modern digital infrastructure.They are specialized 
 https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/San_Diego_Zoo_Avril_2013_05.JPG/1200px-San_Diego_Zoo_Avril_2013_05.JPG)https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/San_Diego_Zoo_Avril_2013_05.JPG/1200px-San_Diego_Zoo_Avril_2013_05.JPG
 ```
 <p>Below is the working of the app!!!</p>
+
 <img alt="AI App" src="https://github.com/louis103/AI-Text-Summarizer-App/blob/main/main.gif"/>
-
-
-
