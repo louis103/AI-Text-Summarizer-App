@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Wambua's AI Text Summarizer!</h1>
+    <p>Welcome to the AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, our app can assist you.</p>
+  <p>Optionally I have added image-to-text functionality below. Be sure to check it out and provide feedback via my <a target="_blank" href="https://www.linkedin.com/in/louis-wambua-5a6b91226/">linkedIn</a></p>
+    <p class='red'>Simply paste your text into the text area below and click the "Submit" button.</p>
+    <div class="container">
+        <div class="text-box">
+            <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
+            <button id="submit-button" class="submit-button">
+                <span class="submit-button-text">Summarize</span>
+            </button>
+        </div>
+        <div class="text-box">
+            <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"></textarea>
+        </div>
+    </div>
+    <h1>Wambua's Image-to-Text Conversion!</h1>
+    <p class='red'>Want to see Text from images? Just type your image url below and hit 'Generate Text'</p>
+    <div class="container">
+        <div class="text-box">
+            <textarea id="image_to_text" name="image_to_text" placeholder="Paste in image url starting with 'https://'"></textarea>
+            <button id="submit-button-img" class="submit-button">
+                <span class="gen-button-text">Generate Text</span>
+            </button>
+        </div>
+        <div class="text-box">
+          <textarea id="image-text-summary" name="image-text-summary" placeholder="Generated text will appear here!!"></textarea>
+        </div>
+    </div>
+
+  <!-- How to postman section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <div class="cta-text">
+                <h2>Curious how to build this app?</h2>
+                <p>Join Postman's Student Program and elevate your software development and API knowledge to help you in your career.</p>
+                <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=CGC&utm_medium=referral&utm_source=internal&utm_term=pbl-skilljar&utm_content=pbl_summariser_app" class="cta-button" target="_blank" rel="noopener nofollow">Register as student</a>
+            </div>
+            <img src="images/learning.png" alt="Learning Image">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
